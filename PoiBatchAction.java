@@ -189,6 +189,7 @@ public class PoiBatchAction extends ActionSupport implements
 				System.out.println("license出错");
 				return;
 			}
+			//  加上注释,测试提交代码是否好使
 			Document doc = new Document(fileInput);
 			fileOS = new FileOutputStream(outputFile);
 			doc.save(fileOS, SaveFormat.PDF);
